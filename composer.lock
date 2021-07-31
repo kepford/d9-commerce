@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "905d9a17d0828a1ffcb92ab6d2cf5ae9",
+    "content-hash": "2545a624ee86d63f0cf99db764763ff2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2041,6 +2041,64 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/commerce_ups",
                 "issues": "https://www.drupal.org/project/issues/commerce_ups"
+            }
+        },
+        {
+            "name": "drupal/commerce_usps",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/commerce_usps.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/commerce_usps-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "8e11578950bf6ef1c92e2957bc2e9c645696350e"
+            },
+            "require": {
+                "drupal/commerce_shipping": "^2.0@rc",
+                "drupal/core": "^8 || ^9",
+                "vinceg/usps-php-api": "~1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1600457817",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew M Riley",
+                    "homepage": "https://www.drupal.org/user/98079"
+                },
+                {
+                    "name": "andyg5000",
+                    "homepage": "https://www.drupal.org/user/808668"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                }
+            ],
+            "description": "USPS Shipping Module for Drupal 8",
+            "homepage": "https://www.drupal.org/project/commerce_usps",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/commerce_usps",
+                "issues": "https://www.drupal.org/project/issues/commerce_usps"
             }
         },
         {
@@ -7455,6 +7513,60 @@
                 "stream-wrapper"
             ],
             "time": "2020-11-07T09:06:16+00:00"
+        },
+        {
+            "name": "vinceg/usps-php-api",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VinceG/USPS-php-api.git",
+                "reference": "d8865542a572ec728e682c305d8ec06f8a37a39d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VinceG/USPS-php-api/zipball/d8865542a572ec728e682c305d8ec06f8a37a39d",
+                "reference": "d8865542a572ec728e682c305d8ec06f8a37a39d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "USPS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Gabriel",
+                    "homepage": "http://vadimg.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander Reiff",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ryan Hayle",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP wrapper for USPS Web Tools API",
+            "keywords": [
+                "api",
+                "usps"
+            ],
+            "support": {
+                "issues": "https://github.com/VinceG/USPS-php-api/issues",
+                "source": "https://github.com/VinceG/USPS-php-api/tree/v1.1.0"
+            },
+            "time": "2021-03-15T06:14:38+00:00"
         },
         {
             "name": "webflo/drupal-finder",
