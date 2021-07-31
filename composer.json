@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/commerce": "^2.25.0",
+        "drupal/commerce_paypal": "^1.0@RC",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
