@@ -5,10 +5,12 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.default
     - field.field.commerce_product_variation.default.field_image
+    - field.field.commerce_product_variation.default.weight
     - image.style.thumbnail
   module:
     - commerce_price
     - image
+    - physical
 _core:
   default_config_hash: dDLA40Axom_QFA79EWUpe_bWXWE8I_7MijzPkslbVfA
 id: commerce_product_variation.default.default
@@ -49,6 +51,14 @@ content:
     weight: 10
     settings:
       display_label: true
+    third_party_settings: {  }
+    region: content
+  weight:
+    type: physical_measurement_default
+    weight: 91
+    settings:
+      default_unit: ''
+      allow_unit_change: true
     third_party_settings: {  }
     region: content
 hidden:
