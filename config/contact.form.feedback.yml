@@ -1,0 +1,14 @@
+uuid: 14beafcd-994c-4ea5-aeda-44d7cb8ced05
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - bob@kepford.org
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
